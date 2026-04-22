@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with JavaScript in 2026",
+    "slug": "getting-started-with-javascript-2026",
+    "author": "Hanafi Tech",
+    "category": "Programming",
+    "tags": ["JavaScript", "Beginner", "Web"],
+    "excerpt": "Learn the basics of JavaScript and how to start building interactive web apps.",
+    "content": "JavaScript remains one of the most powerful languages for web development. In this guide, we explore variables, functions, and DOM manipulation...",
+    "image": "https://images.unsplash.com/photo-1587620962725-abab7fe55159",
+    "createdAt": "2026-01-01",
+    "readTime": "5 min"
+  },
+  {
+    "id": 2,
+    "title": "Understanding React Hooks Easily",
+    "slug": "understanding-react-hooks-easily",
+    "author": "Hanafi Tech",
+    "category": "Frontend",
+    "tags": ["React", "Hooks"],
+    "excerpt": "React hooks simplify state management in functional components.",
+    "content": "Hooks like useState and useEffect allow developers to write cleaner code...",
+    "image": "https://images.unsplash.com/photo-1633356122544-f134324a6cee",
+    "createdAt": "2026-01-02",
+    "readTime": "6 min"
+  },
+  {
+    "id": 3,
+    "title": "Node.js for Backend Development",
+    "slug": "nodejs-backend-development",
+    "author": "Hanafi Tech",
+    "category": "Backend",
+    "tags": ["Node.js", "API"],
+    "excerpt": "Build scalable backend services using Node.js.",
+    "content": "Node.js allows developers to use JavaScript on the server side...",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c",
+    "createdAt": "2026-01-03",
+    "readTime": "7 min"
+  },
+  {
+    "id": 4,
+    "title": "Mastering CSS Flexbox",
+    "slug": "mastering-css-flexbox",
+    "author": "Hanafi Tech",
+    "category": "CSS",
+    "tags": ["CSS", "Flexbox"],
+    "excerpt": "Flexbox makes layout design easier and responsive.",
+    "content": "Flexbox is a one-dimensional layout system that helps align items...",
+    "image": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2",
+    "createdAt": "2026-01-04",
+    "readTime": "4 min"
+  },
+  {
+    "id": 5,
+    "title": "Building REST APIs with Express",
+    "slug": "building-rest-apis-express",
+    "author": "Hanafi Tech",
+    "category": "Backend",
+    "tags": ["Express", "API"],
+    "excerpt": "Create powerful APIs with Express.js.",
+    "content": "Express simplifies server creation with routing and middleware...",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475",
+    "createdAt": "2026-01-05",
+    "readTime": "6 min"
+  },
+
+  {
+    "id": 6,
+    "title": "Intro to TypeScript for Developers",
+    "slug": "intro-to-typescript",
+    "author": "Hanafi Tech",
+    "category": "Programming",
+    "tags": ["TypeScript"],
+    "excerpt": "Why TypeScript is essential in modern apps.",
+    "content": "TypeScript adds static typing to JavaScript...",
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d",
+    "createdAt": "2026-01-06",
+    "readTime": "5 min"
+  },
+
+  {
+    "id": 7,
+    "title": "MongoDB Basics Explained",
+    "slug": "mongodb-basics",
+    "author": "Hanafi Tech",
+    "category": "Database",
+    "tags": ["MongoDB"],
+    "excerpt": "Understand NoSQL databases easily.",
+    "content": "MongoDB stores data in JSON-like documents...",
+    "image": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d",
+    "createdAt": "2026-01-07",
+    "readTime": "5 min"
+  },
+
+  {
+    "id": 8,
+    "title": "Deploying Apps to Production",
+    "slug": "deploying-apps-production",
+    "author": "Hanafi Tech",
+    "category": "DevOps",
+    "tags": ["Deployment"],
+    "excerpt": "Learn how to deploy your app successfully.",
+    "content": "Deployment involves hosting your app on servers...",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    "createdAt": "2026-01-08",
+    "readTime": "6 min"
+  },
+
+  {
+    "id": 9,
+    "title": "Understanding Git and GitHub",
+    "slug": "git-and-github",
+    "author": "Hanafi Tech",
+    "category": "Tools",
+    "tags": ["Git", "GitHub"],
+    "excerpt": "Version control made easy.",
+    "content": "Git helps developers track changes in their code...",
+    "image": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb",
+    "createdAt": "2026-01-09",
+    "readTime": "4 min"
+  },
+
+  {
+    "id": 10,
+    "title": "Responsive Web Design Principles",
+    "slug": "responsive-web-design",
+    "author": "Hanafi Tech",
+    "category": "Design",
+    "tags": ["Responsive"],
+    "excerpt": "Make your websites mobile-friendly.",
+    "content": "Responsive design ensures apps work on all devices...",
+    "image": "https://images.unsplash.com/photo-1522199710521-72d69614c702",
+    "createdAt": "2026-01-10",
+    "readTime": "5 min"
+  }
+
+]
