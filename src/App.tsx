@@ -55,6 +55,14 @@ import Homepage from "./pages/public/homepage"
 import ForgotPassword from "./pages/auth/forgot-password"
 import ViewPage from "./pages/public/view"
 import AboutUs from "./pages/public/about"
+import Contact from "./pages/public/contact"
+import ProfilePage from "./pages/auth/profile"
+import OverviewPage from "./pages/dashboard/overview"
+import UsersPage from "./pages/dashboard/users"
+import BlogsPage from "./pages/dashboard/blogs"
+import CategoryPage from "./pages/dashboard/category"
+import AdminPage from "./pages/dashboard/admin"
+import SettingsPage from "./pages/dashboard/settings"
 
 
 function App() {
@@ -65,7 +73,18 @@ function App() {
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/" element={<Homepage  />} />
       <Route path="/about-us" element={<AboutUs  />} />
+      <Route path="/contact" element={<Contact  />} />
+      <Route path="/profile" element={<ProfilePage  />} />
       <Route path="/view/:title" element={<ViewPage  />} />
+
+      {/* {DASHBOARD PAGES} */}
+      <Route path="/overview" element={<OverviewPage  />} />
+      <Route path="/users" element={<UsersPage  />} />
+      <Route path="/blogs" element={<BlogsPage  />} />
+      <Route path="/category" element={<CategoryPage  />} />
+      <Route path="/admin" element={<AdminPage  />} />
+      <Route path="/settings" element={<SettingsPage  />} />
+
     </Routes>
   )
 }
