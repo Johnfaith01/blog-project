@@ -1,5 +1,6 @@
-import posts from "../../mocks/blog-posts.json"
-import { BlogCard } from "../blog-card"
+
+import { BlogCard } from "./blog-card"
+import posts from "@/mocks/blog-posts.json"
 import {
     Carousel,
     CarouselContent,
@@ -8,14 +9,19 @@ import {
     CarouselPrevious,
 } from "@/components/ui/carousel"
 
-function BlogSection() {
-    return (
-        <section className="w-[90%] mx-auto">
 
-            <Carousel>
-                <CarouselContent className="flex gap-3">
+function BlogProfileSection(){
+    return(
+        <section className="w-[90%] mx-auto flex flex-col gap-5 mt-10">
+
+            <h1 className="font-bold text-xl text-center">Recent Posts</h1>
+            <Carousel
+            opts={{
+                loop: true
+            }}>
+                <CarouselContent className="flex">
                     {
-                        posts.slice(0, 5).map((post, i) => (
+                        posts.slice(5, 9).map((post, i) => (
                             <CarouselItem key={i} className="basis-1/4">
 
                                 <BlogCard
@@ -34,11 +40,8 @@ function BlogSection() {
                 <CarouselPrevious />
                 <CarouselNext />
             </Carousel>
-
-
         </section>
     )
 }
 
-
-export default BlogSection
+export default BlogProfileSection

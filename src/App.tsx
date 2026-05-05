@@ -55,7 +55,18 @@ import Homepage from "./pages/public/homepage"
 import ForgotPassword from "./pages/auth/forgot-password"
 import ViewPage from "./pages/public/view"
 import AboutUs from "./pages/public/about"
+<<<<<<< HEAD
 import ContactUs from "./components/Contact-us"
+=======
+import Contact from "./pages/public/contact"
+import ProfilePage from "./pages/auth/profile"
+import OverviewPage from "./pages/dashboard/overview"
+import UsersPage from "./pages/dashboard/users"
+import BlogsPage from "./pages/dashboard/blogs"
+import CategoryPage from "./pages/dashboard/category"
+import AdminPage from "./pages/dashboard/admin"
+import SettingsPage from "./pages/dashboard/settings"
+>>>>>>> be818b7ce1d13fdd503b24e8ceac16f08eda25f4
 
 
 function App() {
@@ -65,10 +76,26 @@ function App() {
       <Route path="/register" element={<Register />} />
       <Route path="/forgot-password" element={<ForgotPassword />} />
       <Route path="/" element={<Homepage  />} />
+<<<<<<< HEAD
      
       <Route path="/view/:title" element={<ViewPage  />} />
        <Route path="/about" element={<AboutUs  />} />
        <Route path="/contact" element={<ContactUs  />} />
+=======
+      <Route path="/about-us" element={<AboutUs  />} />
+      <Route path="/contact" element={<Contact  />} />
+      <Route path="/profile" element={<ProfilePage  />} />
+      <Route path="/view/:title" element={<ViewPage  />} />
+
+      {/* {DASHBOARD PAGES} */}
+      <Route path="/overview" element={<OverviewPage  />} />
+      <Route path="/users" element={<UsersPage  />} />
+      <Route path="/blogs" element={<BlogsPage  />} />
+      <Route path="/category" element={<CategoryPage  />} />
+      <Route path="/admin" element={<AdminPage  />} />
+      <Route path="/settings" element={<SettingsPage  />} />
+
+>>>>>>> be818b7ce1d13fdd503b24e8ceac16f08eda25f4
     </Routes>
   )
 }
